@@ -121,3 +121,16 @@ p {
   margin-top: 3rem !important;
   box-sizing: border-box;
 }
+@media (min-width: 768px) .container, .container-md, .container-sm {
+  max-width: 720px;
+}
+@media (min-width: 576px) .container, .container-sm {
+  max-width: 540px;
+}
+@media (min-width: 576px) .col-sm-6 {
+  flex: 0 0 auto;
+  width: 50%;
+}
+@media (min-width: 576px) .d-sm-block {
+  display: block !important;
+}
