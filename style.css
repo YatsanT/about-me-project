@@ -127,6 +127,9 @@ p {
     text-align: center;
     margin: 0 20px;
   }
+  .d-none {
+    display: none !important;
+  }
 }
 @media (min-width: 576px) {
   .col-sm-6 {
@@ -136,6 +139,9 @@ p {
   .img-fluid {
     max-width: 100%;
     height: auto;
+  }
+  .d-sm-block {
+    display: block !important;
   }
   img {
     vertical-align: middle;
