@@ -133,16 +133,6 @@ p {
     flex: 0 0 auto;
     width: 50%;
   }
-
-  .d-sm-block {
-    display: block !important;
-  }
-  .rounded {
-    border-radius: 0.25rem !important;
-  }
-  .d-none {
-    display: none !important;
-  }
   .img-fluid {
     max-width: 100%;
     height: auto;
