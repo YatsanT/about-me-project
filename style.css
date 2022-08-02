@@ -130,6 +130,10 @@ p {
   .d-none {
     display: none !important;
   }
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
 }
 @media (min-width: 576px) {
   .col-sm-6 {
