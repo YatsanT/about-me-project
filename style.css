@@ -121,36 +121,3 @@ p {
   margin-top: 3rem !important;
   box-sizing: border-box;
 }
-@media (min-width: 768px) {
-  .container,
-  .container-md,
-  .container-sm {
-    max-width: 720px;
-  }
-}
-@media (min-width: 576px) {
-  .container,
-  .container-sm {
-    max-width: 540px;
-  }
-  .col-sm-6 {
-    flex: 0 0 auto;
-    width: 50%;
-  }
-  .d-sm-block {
-    display: block !important;
-  }
-  .rounded {
-    border-radius: 0.25rem !important;
-  }
-  .d-none {
-    display: none !important;
-  }
-}
-@media (max-width: 576px) {
-  .project-link {
-    display: block;
-    text-align: center;
-    margin: 0 20px;
-  }
-}
